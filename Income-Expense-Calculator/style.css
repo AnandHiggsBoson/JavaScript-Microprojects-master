@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(219, 136, 187, 0.705);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.maincon{
+    height: 72%;
+    background-color: rgb(216, 83, 128);
+    padding: 70px;
+    border-radius: 12px;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    -webkit-text-fill-color: rgb(98, 204, 49);
+}
+.btn{
+  
+   background-color: #4CAF50; /* Green */
+   padding: 16px 32px;
+   text-decoration: none;
+   font-size: 16px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   background-color: white; 
+   border: 2px solid #4CAF50;
+   border-radius: 12px;
+}
+
+.btn:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+.list{
+    margin-top:25px;
+}
+
+.addIncome{
+    background-color: #4CAF50;
+    padding:10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.addExpense{
+    background-color: #4CAF50;
+    padding:10px;
+    margin: 5px;
+    border-radius:10p;
+}
+.displayShow{
+background-color: red;
+font-size: 55px;
+}
